@@ -1,0 +1,164 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+* {
+    font-family: 'Happy Monkey', cursive;
+}
+
+.homepage {
+    width: 800px;
+    margin:auto;
+}
+
+a {
+    all: unset;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/melbourne.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #F1FAEE;
+    text-shadow: 1px 1px 1px #2e2e2e;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+
+.hero-section:hover {
+    font-size: 1.5rem;
+}
+
+.title {
+    margin:0;
+    padding: 90px 0 20px;
+}
+
+.into{
+    text-align: center;
+    margin:0;
+    width: 65%;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.activities-section {
+    background: #A8DADC;
+    padding: 0px 0 30px 0;  
+}
+
+.attractions-title{
+    margin:0px;
+    padding: 30px;
+    text-align: center;
+}
+
+.activities-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.attraction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.food-img {
+    background-image: url("images/food.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 140px;
+    width:140px;
+    border-radius: 50%;
+}
+
+.food-img:hover {
+    height: 160px;
+    width:160px;
+    border-radius: 50%;
+}
+
+.theatre-img{
+    background-image: url("images/theatre.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 140px;
+    width:140px;
+    border-radius: 50%;
+}
+
+.theatre-img:hover {
+    height: 160px;
+    width:160px;
+    border-radius: 50%;
+}
+
+.zoo-img{
+    background-image: url("images/zoo.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 140px;
+    width:140px;
+    border-radius: 50%;
+}
+
+.zoo-img:hover {
+    height: 160px;
+    width:160px;
+    border-radius: 50%;
+}
+
+.attraction-intro{
+    margin-top:20px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+.guide-section {
+    border: 1px solid #A8DADC;
+    border-radius: 0 0 10px 10px;
+}
+
+.guide-card {
+    display: flex;
+    width:400px;
+    height:250px;
+    background:#F1FAEE;
+    margin: 30px auto 30px;
+    border-radius: 10px;
+}
+
+.guide-title {
+    margin:0px;
+}
+
+.amber-image{
+    width:150px;
+    height:200px;
+    background-image: url("images/amber.jpeg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.guide-content {
+    width:200px;
+    margin:auto;
+    text-align: center;
+    color:#295166;
+}
+
+footer {
+    text-align: center;
+}
